@@ -3,6 +3,9 @@
 buildscript {
     apply from: 'dependencies.gradle'
     apply from: 'dependencies_groups.gradle'
+    ext {
+        compose_version = '1.2.0'
+    }
 
     repositories {
         // Do not use `google()`, it prevents Dependabot from working properly

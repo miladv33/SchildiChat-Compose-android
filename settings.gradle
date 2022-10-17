@@ -14,3 +14,4 @@ include ':library:external:dialpad'
 
 include ':matrix-sdk-android'
 include ':matrix-sdk-android-flow'
+include ':compose'
